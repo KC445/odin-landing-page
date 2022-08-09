@@ -7,14 +7,38 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 0 10%;
     background-color: #212529;
     color: #F8F9FA;
 }
 
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #F8F9FA;
+    color: #212529;
+    padding: 0 5px;
+}
+
+.logo img {
+    width: 25px;
+    height: auto;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h1 span {
+    font-size: 2.5rem;
+}
+
 .main-header {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
 }
 
 .header-container {
@@ -38,10 +62,21 @@ body {
 .top {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    padding: 0 10%;
+}
+
+.top h2 {
+    font-size: 2rem;
+    margin: 3% 0;
 }
 
 .site-benefits {
     display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 2.5% 0 7.5%;
+    font-size: 1.25rem;
 }
 
 .middle {
@@ -51,12 +86,19 @@ body {
     flex-direction: column;
 }
 
+.top,
+.middle,
+.bottom {
+    padding: 0 10%;
+}
+
 .footer {
     background-color: #212529;
     color: #F8F9FA;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 7.5px;
 }
 
 ul {
@@ -79,14 +121,18 @@ p {
 
 .testimonial {
     font-style: italic;
+    padding: 5% 25% 2.5%;
+    font-size: 1.25rem;
 }
 
 .name {
     font-weight: bold;
+    text-align: right;
+    padding-top: 2.5%;
 }
 
 .head-img {
-    width: 400px;
+    width: 300px;
     height: auto;
     border-radius: 10%;
 }

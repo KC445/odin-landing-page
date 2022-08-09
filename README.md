@@ -5,6 +5,7 @@ Second project completed as part of the Odin Project course.  The site is a land
 
 
 Photo Credits:
+Fedora icon made by iconixar on www.flaticon.com
 Header Photo by cottonbro on Unsplash.com
 Camera icon made by 3ab2ou from www.flaticon.com
 Recommendation icon made by Afian Rocmah Afif from www.flaticon.com
